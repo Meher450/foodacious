@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You!</title>
+    <style>
+      *{
+        box-sizing:border-box;
+        border-radius: 15%;
+        /*background-image: url("https://wallpapercrafter.com/desktop/31203-chocolate-cocoa-delicious-4K.jpg");
+        outline:1px solid ;*/
+      }
+      body{
+        background-image: url("https://wallpapercrafter.com/desktop/31203-chocolate-cocoa-delicious-4K.jpg"); 
+      }
+      .content{
+        padding: 150px 25px;
+      }
+      
+      .wrapper{
+        width:100%;
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: center;
+      }
+      h1{
+        font-family: 'Kaushan Script', cursive;
+        font-size:4em;
+        text-align: center;
+        letter-spacing:3px;
+        padding-bottom: 0px;
+        color:#f00 ;
+      }
+      p{
+        margin:0;
+        padding-bottom: 30px;
+        text-align: center;
+        color:#5892FF;
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing:1px;
+        color:#f00 ;
+      }
+
+      @media (min-width:360px){
+        h1{
+          font-size:4.5em;
+        }
+      }
+
+      @media (min-width:600px){
+        .content{
+        max-width:1000px;
+        margin:0 auto;
+      }
+        .wrapper{
+        height: initial;
+        max-width:620px;
+        margin:0 auto;
+        margin-top:50px;
+        box-shadow: 4px 8px 40px 8px rgba(88, 146, 255, 0.2);
+      }
+      .back{
+    position: absolute;
+    top: 25px;
+    left:46%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #fff;
+    color: #f00;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 10%;
+}
+  
+a:hover {
+    background-color: #f00;
+    color: #fff; 
+} 
+      }
+    </style>
+</head>
+<body>
+    <div class=content>
+        <div class="wrapper">
+            <h1>Thank you !</h1>
+            <p>Thank you for taking the time to help us improve the platform</p>
+            <a href="./resturant.html" class="back" id="back">Home</a>
+        </div>
+    </div>
+</body>
+</html>

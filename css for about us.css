@@ -1,0 +1,78 @@
+.h1{
+    text-align: center;
+    color: #ADD8E6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+.p1{
+    text-align: center;
+    color: #ADD8E6;
+    font-size: 40px;
+    font-style: italic;
+}
+b{
+    color:#fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight:bold;
+    font-style: normal;
+    
+}
+.items{
+    display:grid;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-column-gap: 50px;
+    padding-left: 20%;
+}
+.img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    cursor:pointer;
+}
+.submit-button {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 0.75rem;
+    background: transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+}
+button{
+    border: none;
+    cursor: pointer;
+    outline: transparent;   
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    background-color: brown;
+    border-radius: 5px;
+    color: white; 
+}
+.back{
+    position: absolute;
+    top: 45px;
+    left:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #fff;
+    color: brown;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 10%;
+}
+  
+a:hover {
+    background-color: brown;
+    color: #fff; 
+}

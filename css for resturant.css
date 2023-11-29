@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;  
+    box-sizing: border-box;
+}
+
+.hello{
+    position:absolute;
+    height:auto;
+    left:10px;
+    width:120px;
+    padding-left:10px;
+    padding-top:1px;
+}
+
+.p1{
+  text-align: center;
+  color: #614c08;
+  font-size: 40px;
+  border: dashed;
+  border-color: #614c08;
+}
+h1{
+    text-align: center;
+    color: black;
+    padding:10px;
+    font-size: 50px;
+}
+nav{
+    background-color:black ;
+    display: grid;
+    text-align: center;
+    margin:20px ;
+}
+nav ul{
+     list-style-type:none;
+
+}
+nav ul a{
+    display:inline-block;
+    padding: 20px;
+    text-decoration: underline;
+    color:aliceblue;
+    text-decoration: none;
+}
+nav ul a:hover{
+    background-color:rgb(95, 119, 116);
+}
+
+.items{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:30px 20px;
+    grid-column-gap:20px;
+    grid-row-gap:30px;
+}
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor:pointer
+}
+.item img:hover{
+    transform:scale(1.04)
+}
+
+.item h4{
+    padding:5px;
+    text-align:center;
+
+}
+.item button{
+    width: 100%;
+    padding:10px;
+    border:none;
+    outline:none;
+    background-color:black;
+    color:white;
+    cursor:pointer;
+    border-radius: 4px;
+    font-size:20px;
+    margin:0 auto;
+    text-align:center;
+}
+.item button:hover{
+    transform:scale(1.08);
+}
+
+/*.container{
+    width: 100%;
+    display: grid;
+    max-width: 850px;
+    padding-left: 35%;
+}*/
+
+form{
+    width: 250px;
+    margin: 60px auto;
+}
+h1{
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: center;
+    margin: 20px;
+}
+hr{
+    border-top: 2px solid tomato;
+}
+
+form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+input{
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: tomato;
+}
+button:hover{
+    background: rgba(214, 86, 64, 1);
+}

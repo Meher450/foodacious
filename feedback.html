@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <title>Feedback and Survey-Form</title>
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            
+            <a href="./resturant.html" class="back" id="back"><< Back</a>
+            <header class="header">
+                <h1 id="title" class="text-center">Feedback and Survey-Form</h1>
+                <p></p>
+            </header>
+            <form id="survey-form" action="./thankyou.html">
+                <div class="form-group"> 
+                    <label id="fname" for="fname">
+                        First Name
+                        <span class="glevel"> * </span>
+                    </label>
+                    <input 
+                        type="text" 
+                        id="fname" 
+                        name="fname"
+                        class="form-control" 
+                        placeholder="Enter First Name" 
+                        required
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="lname" id="lname">
+                        Last Name
+                        <span class="glevel"> * </span>
+                    </label>
+                    <input 
+                        type="text" 
+                        id="lname" 
+                        name="lname" 
+                        placeholder="Enter Last Name" 
+                        class="form-control"
+                        required
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="email" id="email">
+                        Email
+                        <span class="glevel"> * </span>
+                    </label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="Enter your E-mail" 
+                        class="form-control"
+                        required
+                    />
+                </div>
+                <div class="form-group">
+                    <label id="number-label" for="number">
+                        Age
+                        <span class="clue">
+                            (optional)
+                        </span>
+                    </label>
+                    <input
+                      type="number"
+                      name="age"
+                      id="number"
+                      min="10"
+                      max="99"
+                      class="form-control"
+                      placeholder="Age"
+                    />
+                </div> 
+                <div class="form-group">
+                    <label for="gender" id="gender">
+                        Gender
+                    </label>
+                        <select 
+                            name="gender" 
+                            class="form-control" 
+                            required >
+                            <option value="select">--Select--</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                </div>     
+                <div class="form-group">
+                    <label for="country" id="country">
+                        Country
+                        <span class="glevel"> * </span>
+                    </label>
+                    <input 
+                        type="text" 
+                        name="country" 
+                        class="form-control"
+                        required
+                    />
+
+                </div>      
+                <div class="form-group">
+                    <label for="grade_level" id="grade_level">Grade Level<span class="glevel"> * </span></label>
+                        <select name="grade_level" class="form-control" required>
+                            <option value="select">--Select--</option>
+                            <option value="freshman">Freshman</option>
+                            <option value="sophomore">Sophomore</option>
+                            <option value="junior">Junior</option>
+                            <option value="senior">Senior</option>
+                        </select>
+
+                </div>
+                <div class="form-group">
+                    <label for="feedback" id="feedback">Feedback</label>
+                    <textarea 
+                        id="feedback" 
+                        name="feedback" 
+                        class="textarea"
+                        rows="4" 
+                        cols="50" 
+                        placeholder="Type Here ..."
+                        >
+                    </textarea>
+                </div>
+                <div class="form-group">
+                    <label for="rating" id="rating">Rating<span class="glevel"> * </span></label>
+                    <select 
+                        id="rating" 
+                        name="rating"
+                        class="form-control" 
+                        required>
+                        <option value="">--Choose an option--</option>
+                        <option value="5">5 - Excellent</option>
+                        <option value="4">4 - Good</option>
+                        <option value="3">3 - Neutral</option>
+                        <option value="2">2 - Dissatisfied</option>
+                        <option value="1">1 - Very Dissatisfied</option>
+                    </select>
+                </div>
+                <div class="form-group"> 
+                    <label for="suggestions" id="suggestions">Suggestions</label>
+                    <textarea 
+                        id="suggestions" 
+                        name="suggestions" 
+                        rows="4" 
+                        cols="50" 
+                        class="textarea"
+                        placeholder="Type Here ..."
+                        >
+                    </textarea>
+                </div>
+                <div class="form-group">
+                    <a href="./project1.html">
+                    <button type="submit" id="submit" class="submit-button">
+                        Submit
+                    </button></a>
+                </div>
+            </form>
+        </div>
+    </body> 
+</html>
